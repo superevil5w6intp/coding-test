@@ -25,4 +25,17 @@ def solution2():
         print('우린 칭구칭긔')
     else:
         print ('아기가 울지도 않고 용감하네')
-solution2()
+# solution2()
+
+
+def solution3():
+    x=input("mbti가 뭐예요")
+    if x=="intp":
+        print('동지여 어서오고')
+    elif x=="infp" or x=="enfj":
+        print('우리 집에서 나가')
+    elif x=="istj" or x=="estj":
+        print('굳')
+    else: 
+        print('굳굳')
+solution3()
